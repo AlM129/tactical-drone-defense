@@ -1,7 +1,7 @@
 {
   "id": "tactical-drone-defense",
   "name": "Tactical Drone Defense",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "developer": "MCM Games",
   "genre": "Shooter",
   "theme": "emerald",
@@ -12,50 +12,33 @@
   "banner": "cover.png",
   "thumbnail": "cover.png",
   "actions": [
-    { "type": "play", "label": "Play", "url": "index.html" },
-    { "type": "beta", "label": "Beta", "onClick": "openBetaModal()" }
+    {
+      "type": "play",
+      "label": "Play",
+      "url": "index.html"
+    },
+    {
+      "type": "beta",
+      "label": "Beta",
+      "onClick": "openBetaModal()"
+    }
   ],
   "releases": {
     "stable": {
-      "version": "1.4.0",
+      "version": "1.4.1",
       "changelog": [
+        {
+          "version": "1.4.1",
+          "date": "2026-07-30",
+          "changes": [
+            "Fixed an issue where completing a wave caused the game to stop progressing"
+          ]
+        },
         {
           "version": "1.4.0",
-          "date": "2026-07-06",
+          "date": "2026-07-29",
           "changes": [
-            "Initial stable release",
-            "Core gameplay loop",
-            "Basic weapons"
-          ]
-        }
-      ]
-    },
-    "beta": {
-      "version": "2.0.0-dev35",
-      "changelog": [
-        {
-          "version": "1.2.0-beta",
-          "date": "2026-07-10",
-          "changes": [
-            "Added new enemy types",
-            "Improved performance",
-            "Fixed bugs"
-          ]
-        },
-        {
-          "version": "1.1.0-beta",
-          "date": "2026-07-03",
-          "changes": [
-            "Added new weapons",
-            "Balanced difficulty"
-          ]
-        },
-        {
-          "version": "1.0.0-beta",
-          "date": "2026-06-25",
-          "changes": [
-            "Initial beta release",
-            "Core gameplay loop"
+            "Added basic support for Game Hub"
           ]
         }
       ]
